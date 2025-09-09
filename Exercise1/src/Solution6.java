@@ -45,7 +45,7 @@ public class Solution6 {
                 System.out.printf("y = %.4f%n", y);
 
             } else {
-                if (Math.abs(detX) < 0 && Math.abs(detY) < 0) {
+                if (Math.abs(detX) == 0 && Math.abs(detY) == 0) {
                     System.out.println("Система имеет бесконечно много решений");
                 } else {
                     System.out.println("Система не имеет решений");
